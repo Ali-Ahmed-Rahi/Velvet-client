@@ -131,7 +131,7 @@ const Navbar = () => {
               <p>Route</p>
             </Link>
             <a
-              href="tel:+8801942432047"
+              href="tel:+8801942432047 "
               className="flex flex-col items-center text-white"
             >
               <MdCall className="w-6 h-6" />

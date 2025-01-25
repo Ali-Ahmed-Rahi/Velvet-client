@@ -37,10 +37,10 @@ const Reserve = () => {
   };
 
   return (
-    <div>
+    <div >
       <div className="bg-black p-10 rounded-lg lg:shadow-2xl lg:w-5/6 mx-auto lg:mt-5  text-white mb-10 lg:mb-0">
         <h2 className="text-2xl font-bold text-center mb-4"> Velvet Spoon</h2>
-        <form onSubmit={handlereserve}>
+        <form onSubmit={handlereserve} className="w-full">
           <div className=" grid lg:grid-cols-2 gap-6 mb-4">
             {/* Name Input */}
             <div>
@@ -66,7 +66,7 @@ const Reserve = () => {
                 id="datetime"
                 type="datetime-local"
                 placeholder="Date"
-                className="w-full p-3 border border-gray-300 text-white rounded-md "
+                className="w-full p-3 border border-gray-300 text-white rounded-md bg-black "
               />
             </div>
             {/* Lunch Or Dinner */}
@@ -78,7 +78,7 @@ const Reserve = () => {
                 id="currency"
                 name="currency"
                 aria-label="Currency"
-                className="w-full p-3 border border-gray-300 text-white rounded-md"
+                className="w-full p-3 border border-gray-300 text-white rounded-md bg-black"
               >
                 <option>Lunch</option>
                 <option>Dinner</option>
@@ -105,7 +105,7 @@ const Reserve = () => {
               <div className="flex items-center text-white border rounded-md">
                 {/* Country code dropdown */}
                 <div className=" bg-black p-3 rounded-l-lg">
-                  <select className=" outline-none">
+                  <select className=" outline-none bg-black">
                     <option value="US">US</option>
                     <option value="CA">Canada</option>
                     <option value="IN">India</option>
@@ -115,7 +115,7 @@ const Reserve = () => {
                 <input
                   id="phoneNumber"
                   type="number"
-                  className="flex-1 p-3 rounded-r-lg"
+                  className="flex-1 p-3 rounded-r-lg bg-black"
                   placeholder="+123-456-7890"
                 />
               </div>
@@ -145,12 +145,14 @@ const Reserve = () => {
               </p>
             </div>
           </div>
+          <div className="mx-auto">
           <button
             type="submit"
-            className="block bg-white text-amber-950 text-lg font-medium py-3 px-6 rounded-md mx-auto hover:bg-white w-full"
+            className=" bg-white text-black text-lg font-medium py-3 rounded-md mx-auto hover:bg-white w-full"
           >
             Finish
           </button>
+          </div>
         </form>
       </div>
     </div>

@@ -1,6 +1,6 @@
 const Address = () => {
   return (
-    <footer className="footer bg-white text-black items-center p-4 mt-10 font-semibold bg-slate-200">
+    <footer className="footer lg:hidden block text-black items-center p-4 mt-10 font-semibold bg-slate-200">
       <div className="flex justify-center items-center mx-auto space-x-8">
         <div className="text-center">
           <h2 className="">Velvet Spoon</h2>

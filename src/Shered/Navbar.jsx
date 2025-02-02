@@ -88,21 +88,21 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-black shadow-lg rounded-box z-10  mt-2 w-52 p-4 text-white gap-3"
+              className="menu menu-sm dropdown-content bg-white shadow-lg rounded-box z-10  mt-2 w-40 p-4 text-black gap-3"
             >
-              <li className="bg-green-600 rounded-xl">
+              <li className="bg-white shadow-2xl p-1 border rounded-lg ">
                 <Link to="/">Home</Link>
               </li>
-              <li className="bg-green-600 rounded-xl">
+              <li className="bg-white shadow-2xl p-1 border rounded-lg ">
                 <a>News</a>
               </li>
-              <li className="bg-green-600 rounded-xl">
+              <li className="bg-white shadow-2xl p-1 border rounded-lg ">
                 <a>Menu</a>
               </li>
-              <li className="bg-green-600 rounded-xl">
+              <li className="bg-white shadow-2xl p-1 border rounded-lg ">
                 <a>Reviews</a>
               </li>
-              <li className="bg-green-600 rounded-xl">
+              <li className="bg-white shadow-2xl p-1 border rounded-lg ">
                 <Link to="/order">Order</Link>
               </li>
             </ul>

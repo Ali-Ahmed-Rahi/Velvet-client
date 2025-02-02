@@ -68,12 +68,12 @@ const Navbar = () => {
 
       {/* Navbar for Small Screens */}
       <div className="lg:hidden fixed w-full z-50">
-        <div className="navbar backdrop-blur-xl">
+        <div className="navbar bg-white">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-7 w-7"
+                className="h-7 w-7 text-black" 
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -88,7 +88,7 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-black shadow-lg rounded-box fixed z-10 mt-2 w-52 p-4 text-white gap-3"
+              className="menu menu-sm dropdown-content bg-black shadow-lg rounded-box z-10  mt-2 w-52 p-4 text-white gap-3"
             >
               <li className="bg-green-600 rounded-xl">
                 <Link to="/">Home</Link>
@@ -109,11 +109,11 @@ const Navbar = () => {
           </div>
         </div>
         {/* Bottom Navigation for Small Screens */}
-        <div className="fixed z-50 bottom-0 w-full bg-black shadow-md">
+        <div className="fixed z-50 bottom-0 w-full bg-white shadow-2xl">
           <div className="flex justify-around items-center py-2">
             <Link
               to="/reserve"
-              className="flex flex-col items-center text-white"
+              className="flex flex-col items-center text-black"
             >
               <IoCalendarSharp className="w-6 h-6" />
               <p>Reservation</p>
@@ -121,18 +121,18 @@ const Navbar = () => {
 
             <Link
               to="/takeaway"
-              className="flex flex-col items-center text-white"
+              className="flex flex-col items-center text-black"
             >
               <GiShoppingBag className="w-6 h-6" />
               <p>Takeaway</p>
             </Link>
-            <Link to="/map" className="flex flex-col items-center text-white">
+            <Link to="/map" className="flex flex-col items-center text-black">
               <FaLocationDot className="w-6 h-6" />
               <p>Route</p>
             </Link>
             <a
               href="tel:+8801942432047 "
-              className="flex flex-col items-center text-white"
+              className="flex flex-col items-center text-black"
             >
               <MdCall className="w-6 h-6" />
               <p>Call</p>

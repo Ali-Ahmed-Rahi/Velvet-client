@@ -1,9 +1,9 @@
 const Aboutus = () => {
   return (
     <div>
-      <div className="w-full  text-center my-10 space-y-2 bg-gray-800">
+      <div className="w-full text-black text-center py-10 space-y-2 bg-gray-200">
         <h2 className="font-bold text-3xl italic">About Us</h2>
-        <div className="border-2 w-40 mx-auto"></div>
+        <div className="border w-14 mx-[115px] border-black"></div>
         <p className="text-lg mx-5">
           At Velvet Spoon, we believe that every meal tells a  story. Our
           journey began with a passion for creating  unforgettable dining

@@ -38,7 +38,7 @@ const Reserve = () => {
 
   return (
     <div >
-      <div className="bg-black p-10 rounded-lg lg:shadow-2xl lg:w-5/6 mx-auto lg:mt-5  text-white mb-10 lg:mb-0">
+      <div className="bg-black p-10  lg:shadow-2xl lg:w-5/6 mx-auto lg:mt-5  text-white mb-10 lg:mb-0 pt-20">
         <h2 className="text-2xl font-bold text-center mb-4"> Velvet Spoon</h2>
         <form onSubmit={handlereserve} className="w-full">
           <div className=" grid lg:grid-cols-2 gap-6 mb-4">
@@ -66,7 +66,7 @@ const Reserve = () => {
                 id="datetime"
                 type="datetime-local"
                 placeholder="Date"
-                className="w-full p-3 border border-gray-300 text-white rounded-md bg-black "
+                className="w-full p-3 border border-gray-300 rounded-md bg-black "
               />
             </div>
             {/* Lunch Or Dinner */}
@@ -123,7 +123,7 @@ const Reserve = () => {
             {/* Email Input */}
             <div>
               <label className="block  font-medium mb-2" htmlFor="details">
-                Email
+                Email *
               </label>
               <input
                 id="email"
